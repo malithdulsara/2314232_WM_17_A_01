@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  height: 100vh;
+}
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 280px;
+}
+.main form{
+  box-sizing: border-box;
+}
+form{
+  
+  background: white;
+  border-radius: 10px;
+  padding: 5px 30px 5px 15px;
+  box-shadow: 5px 5px 6px -7px;
+  width: 300px;
+  height: 250px;
+}
+.heading{
+  text-align: center;
+  padding: 0 0 20px 0;
+  font-weight:400;
+}
+.heading h1{
+  color: blue;
+}
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1.5px solid rgb(200, 200, 200);
+  outline: none;
+}
+.txt_field input[type=password]{
+  margin:5px 0 ;
+}
+.txt_field input:focus{
+  box-shadow: 0px 0px 1px 1px  #1877f2;
+}
+button{
+  width: 95%;
+  height: 30px;
+  margin: 10px 0px 10px 10px;
+  padding: 5px 0;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #1877f2;
+  color: white;
+}
+#btn2{
+  background-color:#42b72a ;
+}
+ a{
+ margin: 65px;
+ font-size: 15px;
+ text-decoration: none;
+}
+div a:hover{
+  color: rgb(231, 5, 175);
+}
